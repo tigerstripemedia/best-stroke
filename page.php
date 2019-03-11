@@ -12,10 +12,23 @@
  * @package best-stroke
  */
 
-get_header();
+get_header('nonav');
+
 ?>
 
-	<div id="primary" class="content-area">
+<section class="awards-back-button">
+    <div class="container">
+        <a href="/#awards" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+    </div>
+</section>
+
+<section class="awards-page-title">
+    <div class="container">
+        <h1><?php the_title(); ?></h1>
+    </div>
+</section>
+
+	<div id="primary" class="content-area container" style="padding-top: 50px;">
 		<main id="main" class="site-main">
 
 		<?php
