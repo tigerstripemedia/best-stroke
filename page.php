@@ -18,7 +18,7 @@ get_header('nonav');
 
 <section class="awards-back-button">
     <div class="container">
-        <a href="/#awards" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+        <a href="/" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
     </div>
 </section>
 
